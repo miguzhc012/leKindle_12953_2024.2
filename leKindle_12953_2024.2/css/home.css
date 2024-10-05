@@ -1,0 +1,10 @@
+header{
+    background-image: url(../Imagem/abra-o-livro-em-branco.jpg);
+}
+nav ul{
+ display: flex;
+ justify-content: center;
+}
+nav li{
+    list-style: none;
+}

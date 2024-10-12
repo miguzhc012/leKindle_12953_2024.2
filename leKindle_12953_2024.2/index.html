@@ -117,6 +117,44 @@
             </div>
         </div>
     </section>
+    <section class="container contact">
+        <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.975816018098!2d-43.6051155237781!3d-22.914262838140083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be48b35892601%3A0x8620639209455134!2sAv.%20Ces%C3%A1rio%20de%20Melo%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1728687101631!5m2!1spt-BR!2sbr" width="99%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div>
+                <h2>Localização</h2>
+                <p>Avenida Cesario de Melo, 12695</p>
+                <p>Tel: +55 21 99999-9999</p>
+            </div>
+        </div>
+        <form action="http://api.livros.com.br/coment" class="contact-form">
+            
+            <div class="form-group">    
+
+                <!-- <label for="nome">Nome</label> -->
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+            </div>
+            <div class="form-group">
+                <input type="tel" name="cel" id="cel" placeholder="Telefone">
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <select name="assunto" id="assunto">
+                    <option selected disabled>Assuntos:</option>
+                    <option value="2">Sujestão</option>
+                    <option value="3">Elogios</option>
+                    <option value="4">Outros</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea name="msg" id="msg" rows="5" placeholder="Mensagem"></textarea>
+            </div>
+            <div class="form-group">
+                <button>Enviar</button>
+            </div>
+        </form>
+    </section>
 </body>
 
 </html>

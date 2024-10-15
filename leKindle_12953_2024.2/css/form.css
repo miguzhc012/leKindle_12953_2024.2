@@ -1,0 +1,24 @@
+/* forms */
+.form-group{
+    display: flex;
+    justify-content: flex-end;
+}
+.form-group input, 
+.form-group select,
+.form-group textarea{
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: solid var(--gray);
+    border-radius: 8px;
+}
+.form-group button{
+    background-color: rgb(25, 166, 221);
+    border: 0px;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+.form-group button:hover{
+    opacity: 0.8;
+}

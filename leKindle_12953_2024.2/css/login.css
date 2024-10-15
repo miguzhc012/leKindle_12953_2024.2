@@ -1,0 +1,61 @@
+/* Navbar */
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+.nav-top {
+    line-height: 40px;
+    background-color: var(--black);
+}
+
+.nav-top li a {
+    text-decoration: none;
+    color: var(--white);
+    padding: 10px 20px;
+}
+
+.nav-top li a:hover {
+    color: var(--gray);
+    background-color: var(--white);
+    border-bottom: solid 4px var(--gray);
+}
+
+/* Login */
+
+.Login {
+    display: grid;
+    justify-content: space-around;
+    margin: 10px 0 ;
+    margin-top: 120px;
+    
+}
+.Login button {
+    background-color: rgb(25, 166, 221);
+    border: 0px;
+    padding: 10px;
+    border-radius: 10%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.Login button:hover{
+    opacity: 0.8;
+}
+.Cad, .Info {
+    border: solid 2px var(--gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: solid var(--gray);
+    border-radius: 8px;
+}
+.Login p, .Info1{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}

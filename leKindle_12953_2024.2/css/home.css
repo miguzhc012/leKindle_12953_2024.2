@@ -1,4 +1,5 @@
-
+@import "./form.css";
+@import "./nav.css";
 header {
     background-image: url(../image/abra-o-livro-em-branco.jpg);
     background-size: cover;
@@ -40,33 +41,8 @@ header {
     border-radius: 50%;
 }
 
-/* Navbar */
-nav ul {
-    display: flex;
-    justify-content: center;
-}
-
-nav li {
-    list-style: none;
-}
-
-.nav-top {
-    line-height: 40px;
-    background-color: var(--black);
-}
-
-.nav-top li a {
-    text-decoration: none;
-    color: var(--white);
-    padding: 10px 20px;
-}
-
-.nav-top li a:hover {
-    color: var(--gray);
-    background-color: var(--white);
-    border-bottom: solid 4px var(--gray);
-}
 /* Card */
+
 .card{
     width: 300px;
     height: 400px;
@@ -115,14 +91,4 @@ nav li {
 .contact-map p {
     font-size: 18px;
     margin-bottom: 10px;
-}
-/* forms */
-.forms-group input{
-    
-}
-button{
-    background-color: rgb(25, 166, 221);
-    border: 0px;
-    padding: 5px;
-    
 }

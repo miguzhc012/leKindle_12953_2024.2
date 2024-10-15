@@ -1,3 +1,4 @@
+@import "./nav.css";
 :root{
     --blue: #4242dd;
     --white: #eeeeee;
@@ -5,7 +6,7 @@
     --gray: #444444;
     --shawdow: rgba(0, 0, 0, 0.25);
     --font-title: 'serif';
-    --font-primary: 'roboto';
+    --font-primary: 'Roboto';
     --font-size-default: 16px;
 }
 

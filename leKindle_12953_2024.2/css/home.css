@@ -1,46 +1,9 @@
+/* Forms */
 @import "./form.css";
+/* Navbar */
 @import "./nav.css";
-header {
-    background-image: url(../image/abra-o-livro-em-branco.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.header-content {
-    display: flex;
-    /* flex-direction: column-reverse; */
-    align-items: center;
-    justify-content: space-evenly;
-    /* height: 100vh; */
-    min-height: 400px;
-}
-.header-main{
-    background-color: var(--shawdow);
-}
-.header-text, 
-.header-logo {
-    width: 50%;   
-    padding: 40px;
-}
-
-.header-text{
-    color: var(--white);
-    background-color: var(--black);
-}
-
-.header-logo {
-    /* text-align: center; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.header-logo img {
-    padding: 20px;
-    background-color: var(--white);
-    border-radius: 50%;
-}
-
+/* Header */
+@import "./header.css";
 /* Card */
 
 .card{
@@ -91,4 +54,21 @@ header {
 .contact-map p {
     font-size: 18px;
     margin-bottom: 10px;
+}
+
+@media (max-width: 760px) {
+    .contact{
+        flex-direction: column;
+    }
+    .contact-map,
+    .contact-form{
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px){
+    
+    .header-content {
+        flex-direction: column-reverse;
+    }
 }

@@ -1,0 +1,64 @@
+/* Navbar */
+@import "./nav.css";
+/* Header */
+@import "./header.css";
+
+/* Login */
+
+.form-access{
+    height: 100vh;
+    position: relative;
+    top: 0;
+}
+
+.Login{
+    display: grid;
+    justify-content: space-around;
+    padding: 20px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+}
+.Login button {
+    background-color: rgb(25, 166, 221);
+    border: 0px;
+    padding: 10px;
+    border-radius: 10%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.Login button:hover{
+    opacity: 0.8;
+}
+.Cad, .Info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 8px;
+}
+
+.Info ::placeholder{
+    color: black;
+}
+.Login p, .Info1{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.Cad a{
+    color: black;
+}
+p{
+    color: black;
+}
+
+@media (max-width: 400px){
+    .header-content {
+        flex-direction: column-reverse;
+    }
+
+}

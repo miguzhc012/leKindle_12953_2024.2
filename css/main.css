@@ -8,6 +8,8 @@
     --font-title: 'serif';
     --font-primary: 'Roboto';
     --font-size-default: 16px;
+    --bs-blue: orange;
+    
 }
 
 * {

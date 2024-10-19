@@ -22,3 +22,6 @@
 .form-group button:hover{
     opacity: 0.8;
 }
+.form-control:disabled {
+    border: 2px var(--gray);
+}
